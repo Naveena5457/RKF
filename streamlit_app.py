@@ -544,7 +544,7 @@ if user:
                         lottie_construction = load_lottieurl(
                             "https://assets2.lottiefiles.com/datafiles/eZXzHZZ2e9Apt25/data.json")
                         st_lottie(lottie_construction, height=300, key='farming')
-                        Booking = st.checkbox('Book_farming_labors', key='farming1')
+                        Booking = st.checkbox('Book_farming_labor', key='farming1')
                         if Booking:
                             book = "Agriculture"
                         feedback_rating(servicetype)
