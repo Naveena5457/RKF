@@ -449,7 +449,7 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 with st.container():
-    st.subheader("Hello:wave: welcome to all in one family")
+    st.subheader("HELLO:wave: WELLCOME TO DAILY WAGE LABOUR MANAGEMENT SYSTEM")
 
     st.write(
         "Labor is the source of all wealth")
@@ -697,7 +697,7 @@ if user:
             left_column_1, left_column_2, right_column_1, right_column_2 = st.columns(4)
             with left_column_1:
                 st.header("services")
-                feedback_type = st.selectbox('service_type', ['select', 'Construction', 'Electricity', 'Agriculture', 'General Workers'], key="feedback1")
+                feedback_type = st.selectbox('service_type', ['select', 'Construction', 'Electricians', 'Agriculture', 'General Workers'], key="feedback1")
                 feedback(feedback_type)
                 feed_back_details(user_type, feedback_type)
             with left_column_2:
@@ -891,6 +891,12 @@ if book:
                             image = Image.open('e2.jpg')
                             worker = "pavan"
                             st.image(image, caption='pavan')
+                            st.write(
+                                """
+                                \n
+                                 Mobile Number: 7778856258
+                                """
+                            )
                             feedback_rating(servicetype, worker)
                             Booking = st.checkbox('click to Book', key='ectricity2')
                             if Booking:
@@ -901,6 +907,12 @@ if book:
                             image = Image.open('e3.jpg')
                             worker = "radha"
                             st.image(image, caption='radha')
+                            st.write(
+                                """
+                                \n
+                                 Mobile Number: 8877885633
+                                """
+                            )
                             feedback_rating(servicetype, worker)
                             Booking = st.checkbox('click to Book', key='Electric3')
                             if Booking:
@@ -908,6 +920,12 @@ if book:
                         with right_columnw4:
                             image = Image.open('e4.jpg')
                             worker = "Akshay"
+                            st.write(
+                                """
+                                \n
+                                 Mobile Number: 8577885644
+                                """
+                            )
                             st.image(image, caption='Akshay')
                             feedback_rating(servicetype, worker)
                             Booking = st.checkbox('click to Book', key='Electty4')
