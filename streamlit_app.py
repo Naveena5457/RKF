@@ -449,7 +449,7 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 with st.container():
-    st.subheader("HELLO:wave: WELLCOME TO DAILY WAGE LABOUR MANAGEMENT SYSTEM")
+    st.subheader("HELLO:wave: :blue[WELLCOME TO DAILY WAGE LABOUR MANAGEMENT SYSTEM]")
 
     st.write(
         "Labor is the source of all wealth")
