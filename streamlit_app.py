@@ -599,7 +599,7 @@ if user:
                     lottie_construction = load_lottieurl(
                         "https://assets3.lottiefiles.com/packages/lf20_twxv8mn4.json")
                     st_lottie(lottie_construction, height=300, key='workers')
-                    Booking = st.checkbox('Book_Generalworkers', key='workers1')
+                    Booking = st.checkbox('Book_Generalworker', key='workers1')
                     if Booking:
                         book = "General Workers"
 
