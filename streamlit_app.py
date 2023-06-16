@@ -69,7 +69,7 @@ def get_resrtict_user(username, password, user_type):
     return data
 
 def view_resrtict_users():
-    c.execute('SELECT * FROM userstable')
+    c.execute('SELECT * FROM userstable6')
     data = c.fetchall()
     return data
 def create_table():
