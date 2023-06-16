@@ -308,6 +308,8 @@ def feedback_rating(servicetype, worker_name = ''):
                 rating2 = rating2 + "⭐"
         st.success("Rating: " + rating2)
 def application_details(apply_type):
+    global booking_user
+    booking_user = user
     if user_type == "worker" or "user":
         if user_type != "admin":
             for user_tupple in view_all_users5():
