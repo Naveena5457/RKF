@@ -247,9 +247,9 @@ def login():
                 left_column1, right_column2 = st.columns(2)
                 with right_column2:
                     annotated_text(
-                        ("Contact us"),
+                        ("click to Contact us"),
                     )
-                    if st.button("contact us"):
+                    if st.button(":green[Contact us]"):
                         with st.sidebar:
                             st.sidebar.subheader("Contact through form")
                             contact_us = """
